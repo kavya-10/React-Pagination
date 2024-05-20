@@ -1,0 +1,45 @@
+#nav-logo{
+  height: 70px;
+  padding-left: 80px;
+  
+}
+.carousel-item img {
+  max-height: 550px; /* Adjust the value as needed */
+}
+.guuter1{
+  background-color:rgb(181, 212, 212);
+}
+.con1{
+background-color:rgb(190, 241, 217);
+}
+.con2{
+background-color: rgb(223, 197, 186);
+}
+
+#cImg{
+height: 300px;
+
+}
+.fullscreen-image {
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 9999; /* Adjust the z-index if needed */
+}
+
+.fullscreen-image img {
+height: 100vh;
+width: 100vw;
+object-fit: cover; /* This ensures the image covers the entire viewport without stretching */
+}
+
+.fav{
+
+position: absolute;
+bottom: 35px;
+right: 5px;
+left: 250px;
+
+}
